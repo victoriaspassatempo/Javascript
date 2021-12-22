@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background:black;
+}
+
+#slider{
+    width: 80%;
+    max-width: 1024px;
+    height: 100vh;
+    max-height: 500px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 400ms;
+}
+#slider img.atual{
+    opacity: 1;
+}

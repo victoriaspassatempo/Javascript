@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Calculadora de Dias </title>
+        <link rel="stylesheet" href="Estilo.css">
+    </head>
+    <body>
+        <h1>Calculadora de dias</h1>
+    <form name="form_main" class="container">
+        <p><label for="IniData"> Data Inicial: </label> 
+        <input name="IniData" id="IniData" type="date" required="required"></p>
+        <p><label for="FinData"> Data Final: </label> 
+        <input name="FinData" id="FinData" type="date" required="required"></p>
+        <p><label for="dias"> Dias: </label> 
+        <span id="dias"></span></p>
+       <button type="button" onclick="countDays()"> Contar </button>
+    </form>
+    <div class= "footer">
+        <p> Desenvolvido por Victoria Rocha </p>
+    </div>
+    <script 
+        type="text/javascript" src="Script.js">
+    </script>
+    </body>
+</html>
